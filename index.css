@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+
+.header {
+  border: 3px solid #333;
+  background-color: rgb(239, 162, 151);
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 700;
+  color: rgb(7, 79, 7);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.title_style {
+  padding: 15px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 35px;
+  color: rgb(7, 87, 23);
+  letter-spacing: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-image: url("https://cdn.vectorstock.com/i/1000x1000/89/89/seamless-watermelon-pattern-with-seeds-vector-1888989.webp");
+    background-size: cover;
+    
+}
+
+.flex_item {
+  position: static;
+    width: 31.5%;
+    margin: 10px;
+    padding: 15px;
+    background-image: url("https://cdn.vectorstock.com/i/1000x1000/00/31/seamless-berry-pattern-vector-13690031.webp");
+    border-radius: 40px;
+    background-size: cover;
+}
+
